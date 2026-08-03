@@ -7,11 +7,10 @@ pipeline {
                bat 'javac Hello.java'
             }
         }
-    }
         stage('run') {
             steps {
                bat 'javac Hello.java'
             }
         }
     }
-
+}
